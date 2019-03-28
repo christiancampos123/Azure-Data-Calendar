@@ -6,7 +6,7 @@ Obtener los datos de un calendario de una cuenta de microsoft(Outlook y office36
 ## Aplicación:
 Puesta en marcha:
 Es necesario inicializar el servidor con el comando por terminal de node.js npm start en la ruta de "node-tutorial"
-[![Screenshot from Gyazo] https://gyazo.com/600619fd430d444df6d5542af332c646]
+
 
 ## 5 rutas:
 Calendar y mail estan implementadas.
