@@ -2,7 +2,8 @@
 
 ## Objetivo:
 Obtener los datos de un calendario de una cuenta de microsoft(Outlook y office365).
-![](app azure imgs/img1.png)
+![alt text](https://raw.githubusercontent.com/christiancampos123/Azure-data-calendar/blob/master/img/img1.png)
+
 ## Aplicación:
 Puesta en marcha:
 Es necesario inicializar el servidor con el comando por terminal de node.js npm start en la ruta de "node-tutorial"
