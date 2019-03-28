@@ -2,7 +2,7 @@
 
 ## Objetivo:
 Obtener los datos de un calendario de una cuenta de microsoft(Outlook y office365).
-![alt text](https://raw.githubusercontent.com/christiancampos123/Azure-data-calendar/blob/master/img/img1.png)
+![Diseño 1](https://rawgit.com/christiancampos123/Azure-data-calendar/master/img/img1.png)
 
 ## Aplicación:
 Puesta en marcha:
