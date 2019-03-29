@@ -24,7 +24,11 @@ Mail y calendar implementadas.
 Calendar: 
 -Controla el refresco de la aplicación cuando esta operativa y hay red. En caso de que no haya red no hace refresco hasta que haya.
 
--Controla los datos y hace las peticiones para mostrarlas en el html.
+![Image](/img/img4.png)
+
+-Controla los datos y llama a los datos para mostrarlos en el la web.
+
+![Image](/img/img5.png)
 
 ## Mail:
 Esta oculto, se puede forzar la entrada mediante la ruta "localhost:3000/mail"
@@ -35,8 +39,37 @@ Controla los mismos datos que el calendar pero para el apartado de bandeja de en
 ## Auth.js en helpers/:
 Controla los tokens y sus peticiones, también las coockies y la caducidad del token para pedir uno nuevo si este se ha actualizado, o el mismo si este ha fallado.
 
+### getAuthUrl
+obtiene la Url usando REDIRECT_URI y APP_SCOPES que se encuentran en el archivo .env.
+
+![Image](/img/img6.png)
+
+### getTokenFromCode
+Obtiene y crea el token, esta funcion devuelve un token de acceso.
+
+![Image](/img/img7.png)
+
+### saveValuesToCookie
+Esta función se usa para guardar los datos en las cookies (nombre de usuario y el token).
+
+![Image](/img/img8.png)
+
+### ClearCookies
+Esta función se encarga de limpiar las cookies para que luego se puedan volver a rellenar.
+
+![Image](/img/img9.png)
+
+### getAccessToken
+Esta es la función que coge el token y comprueba si caduca y lo refresca.
+
+![Image](/img/img11.png)
+
 ## Archivo .env:
 Contiene los permisos de lectura de los calendarios y de los mails. También contiene la id y pass de la app registrada en dev.microsoft.
 
+![Image](/img/img10.png)
+
 ## App.js:
 Controla las rutas y uses de la api
+
+![Image](/img/img12.png)
